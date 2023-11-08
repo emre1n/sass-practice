@@ -5,9 +5,14 @@ a {
   text-decoration: none;
 }
 
+* html body {
+  font-size: 125%;
+}
+
 body {
   font-family: "Alegreya Sans", Arial, sans-serif;
   color: #222222;
+  font-size: 1.125em;
 }
 @media only screen and (max-width: 960px) {
   body {
@@ -31,15 +36,17 @@ p {
 a {
   color: #d57137;
 }
+a:hover {
+  color: #9e4f21;
+}
 
 .warning-button {
   background-color: orange;
   color: #fff;
   padding: 8px 12px;
 }
-
-* html body {
-  font-size: 125%;
+.warning-button:hover {
+  background-color: #ffb733;
 }
 
 #header {
@@ -56,6 +63,13 @@ a {
 }
 #header #main-menu a {
   color: white;
+  padding: 6px 8px;
+  border-bottom: 1px solid rgba(254, 254, 254, 0);
+  transition: border-bottom 0.5s;
+  transition-timing-function: ease-in-out;
+}
+#header #main-menu a:hover {
+  border-bottom: 1px solid #fefefe;
 }
 #main {
   width: 960px;
@@ -68,7 +82,25 @@ a {
     max-width: 960px;
   }
 }
+#main #content {
+  float: left;
+  width: 69.75%;
+}
+#main #sidebar {
+  float: right;
+  width: 23.25%;
+}
+#main #sidebar li {
+  list-style-type: none;
+  padding: 1em 1.25em;
+  border-bottom: 1px dashed #999;
+}
+#main #sidebar li:hover {
+  background-color: #efefef;
+}
+
 #footer {
+  clear: both;
   height: 90px;
   background-color: #ccf962;
 }
