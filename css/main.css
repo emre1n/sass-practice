@@ -20,8 +20,9 @@ a {
 
 body {
   font-family: "Alegreya Sans", Arial, sans-serif;
-  color: #222222;
   font-size: 1.125em;
+  color: #fff;
+  background-color: #22222a;
 }
 @media only screen and (max-width: 960px) {
   body {
@@ -43,10 +44,10 @@ p {
 }
 
 a {
-  color: #d57137;
+  color: #c24721;
 }
 a:hover {
-  color: #9e4f21;
+  color: #812f16;
 }
 
 .sub-title {
@@ -78,11 +79,11 @@ a:hover {
 #header {
   border-radius: 12px;
   border: 1px solid #fff;
-  box-shadow: 2px 0px 4px #999, 1px 1px 6px #d57137;
-  -moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #d57137;
-  -webkit-box-shadow: 2px 0px 4px #999, 1px 1px 6px #d57137;
+  box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
+  -moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
+  -webkit-box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
   height: 60px;
-  background-color: #170a48;
+  background-color: #42424a;
 }
 #header #main-menu li {
   display: inline;
@@ -97,6 +98,7 @@ a:hover {
 #header #main-menu a:hover {
   border-bottom: 1px solid #fefefe;
 }
+
 #main {
   width: 960px;
   margin-left: auto;
@@ -128,7 +130,8 @@ a:hover {
 #footer {
   clear: both;
   height: 90px;
-  background-color: #ccf962;
+  background-color: #698932;
+  border-top: 5px solid #3e511e;
 }
 
 /*# sourceMappingURL=main.css.map */
