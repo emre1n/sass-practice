@@ -9,6 +9,74 @@ a {
   font-size: 125%;
 }
 
+.col-1 {
+  width: 2em;
+}
+
+.col-2 {
+  width: 4em;
+}
+
+.col-3 {
+  width: 6em;
+}
+
+.col-4 {
+  width: 8em;
+}
+
+.col-5 {
+  width: 10em;
+}
+
+.col-6 {
+  width: 12em;
+}
+
+.bob-banker-profile {
+  background-image: url("/img/bob-banker.png");
+}
+
+.patty-plume-profile {
+  background-image: url("/img/patty-plume.png");
+}
+
+.sandra-smith-profile {
+  background-image: url("/img/sandra-smith.png");
+}
+
+.tiny {
+  font-size: 8px;
+}
+
+.small {
+  font-size: 11px;
+}
+
+.medium {
+  font-size: 13px;
+}
+
+.large {
+  font-size: 18px;
+}
+
+.picture-2 {
+  width: 20%;
+}
+
+.picture-4 {
+  width: 40%;
+}
+
+.picture-6 {
+  width: 60%;
+}
+
+.picture-8 {
+  width: 80%;
+}
+
 .error, .cta-button, .super-cta-button, .critical-error {
   color: red;
 }
@@ -119,6 +187,7 @@ a:hover {
   width: 23.25%;
 }
 #main #sidebar li {
+  color: #999;
   list-style-type: none;
   padding: 1em 1.25em;
   border-bottom: 1px dashed #999;
